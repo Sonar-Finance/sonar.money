@@ -4,7 +4,7 @@ import "./globals.css"
 
 const nextFont = Inter({
   subsets: [],
-  weight: ["400", "700"],
+  weight: ["400", "700", "800"],
 })
 
 export const metadata: Metadata = {
