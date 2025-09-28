@@ -31,7 +31,7 @@ export default function Home() {
             <Link
               target="_blank"
               href="https://world.org/mini-app?app_id=app_4bf83c14596fb3f11fbcd73f9686c8c1&draft_id=meta_fffef72e4142eb6e7ed8096590214c49"
-              className="bg-white text-sf-blue-deep px-4 py-2 rounded-lg font-semibold ring-2 ring-transparent hover:ring-white/25 transition"
+              className="bg-white/10 border border-white/20 text-white px-4 py-2 rounded-lg font-semibold ring-2 ring-transparent hover:ring-white/25 transition"
             >
               Open <span className="hidden sm:inline">Mini</span> App
             </Link>
@@ -46,11 +46,11 @@ export default function Home() {
               collective foresight into tradable truth.
             </p>
 
-            <nav className="mt-12 w-fit sm:w-auto sm:mt-6 flex flex-col-reverse sm:flex-row gap-5">
+            <nav className="mt-12 w-full sm:w-auto sm:mt-6 flex flex-col-reverse sm:flex-row gap-5">
               <Link
                 target="_blank"
                 href="https://world.org/mini-app?app_id=app_4bf83c14596fb3f11fbcd73f9686c8c1&draft_id=meta_fffef72e4142eb6e7ed8096590214c49"
-                className="h-14 group px-6 flex gap-3 text-black items-center justify-between font-semibold rounded-lg border-2 text-lg border-white/10 bg-gradient-to-bl from-sf-blue/90 to-sf-blue/60"
+                className="h-[3.75rem] group px-6 flex gap-3 text-black items-center justify-between font-semibold rounded-lg border-2 text-lg border-white/10 bg-gradient-to-bl from-sf-blue/90 to-sf-blue/60"
               >
                 <span>Start Predicting</span>
                 <FaArrowRight className="group-hover:translate-x-px" />
@@ -59,9 +59,10 @@ export default function Home() {
               <Link
                 target="_blank"
                 href="https://x.com/0xSonarFinance"
-                className="h-14 group px-6 flex gap-3 text-white items-center justify-center font-semibold rounded-lg border-2 text-lg border-white"
+                className="h-[3.75rem] group px-6 flex gap-3 text-white items-center justify-between font-semibold rounded-lg border-2 text-lg border-white"
               >
-                Follow Twitter
+                <span>Follow Twitter</span>
+                <FaArrowRight className="group-hover:translate-x-px sm:hidden" />
               </Link>
             </nav>
           </div>
